@@ -1,0 +1,74 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .bgimg {
+    background-image: url('./assets/I6uH.gif');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Belanosima", sans-serif;
+    font-size: 28px;
+  }
+  
+  /* Position text in the top-left corner */
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border: 1px solid #a82a2a;
+    border-radius: 2px;
+    left: 10px;
+ 
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #a82a2a;
+    font-size: 10px;
+    padding-bottom: 12px;
+    left: 12px;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #a82a2a;
+    font-size: 20px;
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
+  .launch{
+    font-size: 20px;
+    color: rgb(255, 8, 8);
+    padding-top: 19px;
+    font-weight: 600;
+    font-family: "Belanosima", sans-serif;
+
+  }
