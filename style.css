@@ -11,7 +11,7 @@ body, html {
   }
   
   .bgimg {
-    background-image: url('I6uH.gif');
+    background-image: url('./I6uH.gif');
     height: 100%;
     background-position: center;
     background-size: cover;
